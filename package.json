@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testcov": "nyc jest",
-    "test": "jest"
+    "coverage": "nyc mocha --exit",
+    "test": "mocha --exit"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,9 @@
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
-    "jest": "^29.5.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0"
   }
 }

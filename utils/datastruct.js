@@ -20,8 +20,8 @@ module.exports.ServerData = class ServerData {
   }
 
   Error(message, detail) {
-    data.error.message = message
-    data.error.detail
-    return data
+    this.data.error.message = message
+    this.data.error.detail = detail
+    return this.data
   }
 }
