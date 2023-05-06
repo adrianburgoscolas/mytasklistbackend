@@ -8,6 +8,7 @@ This is the Backend solution to the technical test - My Task List.
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+- [Testing](#testing)
 - [Author](#author)
 
 
